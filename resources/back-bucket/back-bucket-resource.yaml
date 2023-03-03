@@ -8,5 +8,5 @@ metadata:
 spec:
   type: s3-bucket
   owner: cloudops
-  #system: d006-mensajeshlt7
+  system: d006-mensajeshlt7
   

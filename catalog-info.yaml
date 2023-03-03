@@ -12,5 +12,5 @@ spec:
     - ./components/service-artemis/service-artemis.yaml
     - ./components/service-back/service-back.yaml
     - ./components/service-integracion/service-integracion.yaml
-    - ./resources/service-back-db/service-back-db-resource.yaml
-    - ./resources/service-back-bucket/service-back-bucket-resource.yaml
+    - ./resources/back-db/back-db-resource.yaml
+    - ./resources/back-bucket/back-bucket-resource.yaml
