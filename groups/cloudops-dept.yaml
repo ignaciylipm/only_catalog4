@@ -1,0 +1,37 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: cloudops
+  description: The Clouops sub-department
+spec:
+  type: sub-department
+  profile:
+    displayName: cloudops
+    email: cloudops@example.com
+    picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
+  parent: it-ejie
+  children: []
+  
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: admin1-cloudops
+spec:
+  profile:
+    displayName: Admin1 Cloudops
+    email: admin1-cloudops@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [cloudops]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: admin2-cloudops
+spec:
+  profile:
+    displayName: Admin2 Cloudops
+    email: admin2-cloudops@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [cloudops]

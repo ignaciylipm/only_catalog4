@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: it-ejie
+  description: The IT department
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: ejie-corp
+  children: [cloudops]

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: m001
+  description: Domain m001
+  links:
+    - url: http://m001.com/domain/cloud-apps/
+      title: Domain  m001
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: cloudops
+  children: [m006]

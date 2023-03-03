@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: m001-catalog-info
+  description: Ejie catalogo info
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  targets:
+    - ./domains/m001-domain.yaml
+    - ./systems/d006-mensajeshlt7-system.yaml
+    - ./components/service-artemis/service-artemis.yaml
+    - ./components/service-back/service-back.yaml
+    - ./components/service-integracion/service-integracion.yaml

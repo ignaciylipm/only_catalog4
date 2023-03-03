@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: d007-mensajeshlt7
+  description: d007-mensajeshlt7 System
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: cloudops
+  domain: m001
+  system: d006-mensajeshlt7
