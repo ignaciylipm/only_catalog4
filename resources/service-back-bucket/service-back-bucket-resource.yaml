@@ -6,7 +6,7 @@ metadata:
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
-  type: database
+  type: s3-bucket
   owner: cloudops
   #system: d006-mensajeshlt7
   
