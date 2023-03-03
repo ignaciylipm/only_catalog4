@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: service-back-bucket
+  description: Service Back Bucket
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  type: database
+  owner: cloudops
+  #system: d006-mensajeshlt7
+  
