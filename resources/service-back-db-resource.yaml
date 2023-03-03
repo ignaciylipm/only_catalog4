@@ -8,4 +8,5 @@ metadata:
 spec:
   type: database
   owner: cloudops
-  system: d006-mensajeshlt7
+  #system: d006-mensajeshlt7
+  dependsOn: [Component:yelb-db]
