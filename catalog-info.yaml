@@ -12,3 +12,4 @@ spec:
     - ./components/service-artemis/service-artemis.yaml
     - ./components/service-back/service-back.yaml
     - ./components/service-integracion/service-integracion.yaml
+    - ./resources/service-back-db-resource.yaml
