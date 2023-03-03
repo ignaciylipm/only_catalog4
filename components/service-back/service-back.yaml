@@ -17,4 +17,5 @@ spec:
   lifecycle: experimental
   owner: cloudops
   system: d006-mensajeshlt7
+  dependsOn: [Resource:service-back-db]
   
