@@ -9,4 +9,4 @@ spec:
   type: database
   owner: cloudops
   #system: d006-mensajeshlt7
-  dependsOn: [Component:yelb-db]
+  dependsOn: [Component:service-back]
