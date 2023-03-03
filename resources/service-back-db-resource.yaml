@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: yelb-db
-  description: Stores Yelb application Database
+  name: service-back-db
+  description: Service Back DB
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
   type: database
-  owner: team-java
-  system: service-001
+  owner: cloudops
+  system: d006-mensajeshlt7
